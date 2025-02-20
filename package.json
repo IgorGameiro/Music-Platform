@@ -1,0 +1,24 @@
+{
+  "name": "music-platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end ",
+    "start": "npm run start --prefix back-end"
+  },
+  "keywords": [],
+  "author": "Igor Gameiro",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IgorGameiro/Music-Platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IgorGameiro/Music-Platform/issues"
+  },
+  "homepage": "https://github.com/IgorGameiro/Music-Platform#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
